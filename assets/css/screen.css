@@ -175,16 +175,16 @@ figure.central {
 
 .js .parent {
   cursor: pointer;
-  text-decoration: underline;
 }
 .parent {
   display: inline-block;
+  text-decoration: underline;
 }
 aside {
   display: inline-block;
 }
 aside.active {
-  opacity:1.0;
+  opacity: 1.0;
   transition: opacity 0.25s;
 }
 aside.inactive {
