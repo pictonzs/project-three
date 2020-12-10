@@ -173,10 +173,12 @@ figure.central {
 /* state styles */
 
 aside.active {
-
+  opacity:1.0;
+  transition: opacity 1s;
 }
 aside.inactive {
-
+  opacity: 0;
+  transition: opacity 0.5s
 }
 @media screen and (min-width: 20.625em) { /*330/16=20.625*/
   .nav {
