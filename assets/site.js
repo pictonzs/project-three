@@ -1,5 +1,8 @@
+document.querySelector('html').classname = 'js';
+
+
 var asides = document.querySelectorAll('aside');
-var parents = document.querySelectorAll('.parent')
+var parents = document.querySelectorAll('.parent');
 
 for (var i = 0; i < parents.length; i++){
   parents[i].addEventListener('click', function(event)){
@@ -10,6 +13,6 @@ for (var i = 0; i < parents.length; i++){
      } else {
        aside.className='active';
     }
-     console.log('Hey, you clicked a parent for an optional aside element', parent_node, aside.className)
+     console.log('Hey, you clicked a parent for an optional aside element', parent_node, aside.className);
   });
 }

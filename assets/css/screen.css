@@ -145,12 +145,7 @@ figure.rose,
 figure.central {
   padding-bottom: 0.9em; /*18/20=.9*/
 }
-.parent {
-  display: inline-block;
-}
-aside {
-  display: inline-block;
-}
+
 
 
 
@@ -178,6 +173,16 @@ aside {
 
 /* state styles */
 
+.js .parent {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.parent {
+  display: inline-block;
+}
+aside {
+  display: inline-block;
+}
 aside.active {
   opacity:1.0;
   transition: opacity 1s;
