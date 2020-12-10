@@ -172,6 +172,12 @@ figure.central {
 
 /* state styles */
 
+aside.active {
+
+}
+aside.inactive {
+
+}
 @media screen and (min-width: 20.625em) { /*330/16=20.625*/
   .nav {
     display: flex;
